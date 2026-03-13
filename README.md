@@ -111,50 +111,7 @@ streaklife/
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Node.js v18+
-- MongoDB (local or Atlas)
-- npm or yarn
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/streaklife.git
-cd streaklife
-```
-
-### 2. Setup the Backend
-```bash
-cd server
-npm install
-```
-
-Create a `.env` file inside `/server`:
-```env
-MONGO_URI=mongodb://localhost:27017/streaklife
-JWT_SECRET=your_secret_key_here
-PORT=5000
-```
-
-Start the server:
-```bash
-npm run dev
-```
-
-### 3. Setup the Frontend
-```bash
-cd ../client
-npm install
-npm run dev
-```
-
-### 4. Open in browser
-```
-http://localhost:5173
-```
-
----
 
 ## 🔗 API Endpoints
 
